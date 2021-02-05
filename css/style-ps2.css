@@ -1,0 +1,101 @@
+:root {
+
+    /* CSS Variables - Colors from coolors.co*/
+--light-steel-blue: #b8c5d6;
+--alice-blue: #edf5fc;
+--palatinate-purple: #531253;
+--midnight-green-eagle-green: #084c61;
+--fiery-rose: #f45b69;
+}
+
+header {
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: white;
+    
+    position: relative;
+    margin-top: 0px;
+    background-color: var(--midnight-green-eagle-green);
+    padding: 20px 8px;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: var(--midnight-green-eagle-green);
+
+    padding: 10px 8px;
+    position: relative;
+    background-color: var(--light-steel-blue);
+}
+
+p {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 22px;
+    font-size: 14px;
+    color: black;
+}
+
+aside {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 22px;
+    font-size: 14px;
+    color: black;
+
+    background-color: var(--alice-blue);
+    width: 35%;
+    right: 100%;
+    border-radius: 12px;
+    padding: 10px 10px;
+}
+
+.type1 {
+    color: var(--midnight-green-eagle-green);
+}
+
+.type2 {
+    color: var(--palatinate-purple);
+}
+
+#ps2-2 {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    color: var(--palatinate-purple);
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+
+    background-color: var(--alice-blue);
+    color: var(--midnight-green-eagle-green);
+    font-weight: bold;
+    padding:20px;
+
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+a:link, a:visited {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    color: var(--midnight-blue);
+}
+
+a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    color: var(--fiery-rose);
+}
