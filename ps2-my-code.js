@@ -10,6 +10,7 @@
  */
 
 function addOne(x) {
+  return x+1;
 }
 
 
@@ -19,6 +20,13 @@ function addOne(x) {
  */
 
 function largest(lst) {
+  let largest = lst[0];
+  for (let i = 0; i < lst.length; i++) {
+    if(largest <= lst[i]) {
+      largest = lst[i];
+    }
+  }
+  return largest;
 }
 
 /**
@@ -33,6 +41,12 @@ function largest(lst) {
  */
 
 function fact(n) {
+  let answer = 1;
+  for(let i = n; i > 0; i--) {
+    answer = answer * i;
+    console.log(answer);
+  }
+  return answer;
 }
 
 /**
@@ -57,4 +71,23 @@ function fact(n) {
   */
 
 function fib(n) {
+  if(n === 0) {
+    return 0;
+  }
+
+  if(n === 1) {
+    return 1;
+  }
+
+  if (n > 1) {
+  let fibarray = new Array(n);
+  fibarray[0] = 0;  
+  fibarray[1] = 1;
+  for(let i = 2; i <= n; i++) {
+    fibarray[i] = fibarray[i-1] + fibarray[i-2];
+    console.log(fibarray[i]);
+  }
+  return fibarray[n];
+}
+
 }
