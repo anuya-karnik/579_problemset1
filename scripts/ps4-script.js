@@ -28,6 +28,9 @@ let header = document.querySelector('header');
 let matchedCards = document.querySelector('.matched-grid');
 console.log(matchedCards);
 
+//Getting element from input
+let userinput = document.getElementById('playerName');
+
 //Timer Setup
 let lastTime;
 let countInterval;
@@ -37,6 +40,8 @@ setup();
 
 //Event Listener 1
 function setup() {
+
+    
     for (let i = 0; i < cardArr.length; i++) {
         cardArr[i].addEventListener("click", openCard);
     }
@@ -149,12 +154,20 @@ function saveMatched() {
     openCards.pop();
 }
 
-//adding a new element
+//adding a new element (requirement 3)
+//Getting name from a text input field (additional requirement)
 function declareWin() {
     // alert('You Win! Congratulations!');
     let winDisplay = document.createElement('H1');
-    winDisplay.textContent = "YOU WIN! Congratulations!";
+    username = userinput.value;
+    if(username == "") {
+        winDisplay.textContent = "You Win! Congratulations!";
+    }
+    else {
+        winDisplay.textContent = username + ", You Win! Congratulations!";
+    }
+    
     header.appendChild(winDisplay);
-
     clearInterval(countInterval);
 }
+

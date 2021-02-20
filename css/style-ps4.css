@@ -85,9 +85,15 @@ h5 {
     background-color: red;
 }
 
+#playerName {
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
 .game-info {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .info {
