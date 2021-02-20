@@ -32,6 +32,7 @@ console.log(matchedCards);
 let userinput = document.getElementById('playerName');
 
 //Timer Setup
+//Reference: SI 579 - Class Exercise
 let lastTime;
 let countInterval;
 let clock = 0;
@@ -154,8 +155,9 @@ function saveMatched() {
     openCards.pop();
 }
 
-//adding a new element (requirement 3)
-//Getting name from a text input field (additional requirement)
+// adding a new element (requirement 3)
+// Getting name from a text input field (additional requirement)
+
 function declareWin() {
     // alert('You Win! Congratulations!');
     let winDisplay = document.createElement('H1');
