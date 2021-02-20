@@ -166,7 +166,6 @@ function declareWin() {
     else {
         winDisplay.textContent = username + ", You Win! Congratulations!";
     }
-    
     header.appendChild(winDisplay);
     clearInterval(countInterval);
 }
