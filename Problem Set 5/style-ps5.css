@@ -16,7 +16,7 @@ h5 {
 }
 
 .win-text {
-    font-size: 70px;
+    font-size: 30px;
     padding: 15px;
 }
 
@@ -36,7 +36,7 @@ h5 {
     height: 180px;
     border-radius: 20px;
 
-    background-image: url(../images/ps4-images/cover.jpg);
+    background-image: url(ps5-images/cover.jpg);
     background-position: center;
     background-size: contain;
 
@@ -106,45 +106,45 @@ h5 {
 }
 
 .image1 {
-    background-image: url(../images/ps4-images/img1.jpg);
+    background-image: url(ps5-images/img1.jpg);
 }
 
 .image2 {
-    background-image: url(../images/ps4-images/img2.jpg);
+    background-image: url(ps5-images/img2.jpg);
 }
 
 .image3{
-    background-image: url(../images/ps4-images/img3.jpg);
+    background-image: url(ps5-images/img3.jpg);
 }
 
 .image4 {
-    background-image: url(../images/ps4-images/img4.jpg);
+    background-image: url(ps5-images/img4.jpg);
 }
 
 .image5 {
-    background-image: url(../images/ps4-images/img5.jpg);
+    background-image: url(ps5-images/img5.jpg);
 }
 
 .image6 {
-    background-image: url(../images/ps4-images/img6.jpg);
+    background-image: url(ps5-images/img6.jpg);
 }
 
 .image6 {
-    background-image: url(../images/ps4-images/img6.jpg);
+    background-image: url(ps5-images/img6.jpg);
 }
 
 .image7{
-    background-image: url(../images/ps4-images/img7.jpg);
+    background-image: url(ps5-images/img7.jpg);
 }
 
 .image8 {
-    background-image: url(../images/ps4-images/img8.jpg);
+    background-image: url(ps5-images/img8.jpg);
 }
 
 .image9 {
-    background-image: url(../images/ps4-images/img9.jpg);
+    background-image: url(ps5-images/img9.jpg);
 }
 
 .cover {
-    background-image: url(../images/ps4-images/cover.png);
+    background-image: url(ps5-images/cover.png);
 }
